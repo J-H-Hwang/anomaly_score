@@ -1,1 +1,12 @@
-# anomaly_score
+# Anomaly score: Evaluating generative models and individual generated images based on complexity and vulnerability
+
+
+https://arxiv.org/abs/2312.10634 <br>
+
+## Introduction
+
+With the advancement of generative models, the assessment of generated images becomes more and more important. Previous methods measure distances between features of reference and generated images from trained vision models. In this paper, we conduct an extensive investigation into the relationship between the representation space and input space around generated images. We first propose two measures related to the presence of unnatural elements within images: complexity, which indicates how non-linear the representation space is, and vulnerability, which is related to how easily the extracted feature changes by adversarial input changes. Based on these, we introduce a new metric to evaluating image-generative models called anomaly score (AS). Moreover, we propose AS-i (anomaly score for individual images) that can effectively evaluate generated images individually. Experimental results demonstrate the validity of the proposed approach.
+
+## Anomaly score
+
+
